@@ -15,3 +15,20 @@
           operatorgroup:
             create: true
             notownnamespace: true
+ helper-status-checker:
+      enabled: true 
+      approver: true 
+      operatorName: compliance-operator 
+      namespace:
+        name: openshift-compliance 
+      serviceAccount: 
+        create: true
+        name: "sa-compliance" 
+ compliance:
+      scansettingbinding:
+        enabled: true
+        syncwave: '3' 
+        profiles: 
+          - name: ocp4-cis-node
+          - name: ocp4-cis
+        scansetting: default
