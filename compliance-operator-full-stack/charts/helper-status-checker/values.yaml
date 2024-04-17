@@ -7,7 +7,7 @@
 
       # where operator is installed
       namespace:
-        name: openshift-compliance 
+        name: openshift-compliance-two
 
       serviceAccount: 
         create: true
