@@ -4,7 +4,7 @@
           enabled: true
           syncwave: '0'
           namespace:
-            name: openshift-compliance
+            name: openshift-compliance-two
             create: true
           subscription:
             channel: release-0.1
