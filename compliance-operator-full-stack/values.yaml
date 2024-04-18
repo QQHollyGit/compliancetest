@@ -13,7 +13,7 @@ helper-operator:
         # -- The Namespace the Operator should be installed in.
         # The compliance operator should be deployed into **openshift-compliance** Namepsace
         # that must be created.
-        name: openshift-compliance-two
+        name: openshift-compliance-three
         # -- Description of the namespace.
         # @default -- ""
         create: true
@@ -60,7 +60,7 @@ helper-status-checker:
       # For the compliance operator this should be "**openshift-compliance**"
       # @default -- ""
       namespace:
-        name: openshift-compliance-two
+        name: openshift-compliance-three
       syncwave: 3
 
       # -- Set the values of the ServiceAccount that will execute the status checker Job.
@@ -71,7 +71,7 @@ compliance:
   # -- Settings for namespace where compliance operator will be installed.
   namespace:
     # -- Namespace of the operator
-    name: openshift-compliance-two
+    name: openshift-compliance-three
 
   # -- Settings for the ScanSettings
   # Here ScanSettingBinding and TailoredProfile can be configured
