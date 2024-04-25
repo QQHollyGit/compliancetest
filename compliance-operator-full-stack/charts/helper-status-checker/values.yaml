@@ -1,6 +1,6 @@
     helper-status-checker:
       enabled: true 
-      approver: true
+      approver: false
 
       # use the value of the currentCSV (packagemanifest) but WITHOUT the version !!
       operatorName: compliance-operator 
