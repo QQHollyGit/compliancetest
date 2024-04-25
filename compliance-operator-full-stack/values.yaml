@@ -23,7 +23,7 @@ helper-operator:
         channel: stable
         # -- Update behavior of the Operator. Manual/Automatic
         # @default -- Automatic
-        approval: Manual
+        approval: Automatic
         # -- Name of the Operator
         # The name for the compliance operator is **compliance-operator**
         # @default -- "empty"
@@ -47,7 +47,7 @@ helper-status-checker:
   # -- Enable status checker
   # @default -- false
   enabled: true
-  approver: true
+  approver: false
 
   checks:
 
